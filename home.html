@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+         {% block content %}
+         <div class="jumbo">
+	    <h2>Meneame APP<h2>
+	    <h3>Bienvenido a la APP<h3>
+	    <h4>El titulo de la última noticia es: {{titulo}}<h4>
+	    <h5>El número de meneos de la última noticia es: {{meneos}}<h5>
+	    <h6>El número de clics de la última noticia es: {{clics}}<h6>
+	    <h7>El número de comentarios de la última noticia es: {{comentarios}}<h7>
+	  </div>
+          <hr>
+		<p align="center" > <I> Fecha y hora --> {{fecha}} {{hora}} </I> </p>
+		<div id="bloque2">
+		</div>
+		<hr>
+         <hr>
+		<p align="center" > <I> Se puede  acceder a los servicios de graficos que tienen las bases de datos Beebotte </I> </p>
+		<div id="bloque3">
+		<p align="center" > <a class="vinculo" href="https://beebotte.com/dash/8caa98d0-f93a-11e8-a140-675e8012aef3#.XAjuH2hKhPY">Graficas externas</a>
+		</div>
+		<hr>
+	{% endblock %}
+
+
+  
+
